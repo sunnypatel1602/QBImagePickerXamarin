@@ -6,10 +6,6 @@ Objective-C Version : https://github.com/questbeat/QBImagePicker
 
 A clone of UIImagePickerController with multiple selection support.
 
-![screenshot01.png](screenshot01.png)
-![screenshot02.png](screenshot02.png)
-
-
 
 ## Features
 
@@ -19,14 +15,6 @@ A clone of UIImagePickerController with multiple selection support.
 - Customizable (grid size, navigation message, etc.)
 - Supports both portrait mode and landscape mode
 - Compatible with iPhone 6/6Plus, and iPad
-
-
-
-## Requirements
-
-- Version `>= 3.0.0` : iOS 8 or later (Using PhotoKit)
-- Version `< 3.0.0` : iOS 6 or later (Using AssetsLibrary)
-
 
 
 ## Example
