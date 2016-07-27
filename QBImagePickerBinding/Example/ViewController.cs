@@ -16,14 +16,15 @@ namespace Example
 		{
 			base.ViewDidLoad();
 
-			UIButton temp = new UIButton()
+			UIButton button = new UIButton()
 			{
-				Frame = new CoreGraphics.CGRect(100,100,100,100),
-				BackgroundColor = UIColor.Red
+				Frame = new CoreGraphics.CGRect(100,100,200,100),
 			};
-			View.Add(temp);
+			View.Add(button);
+			button.SetTitle("Open", UIControlState.Normal);
+			button.SetTitleColor(UIColor.Blue, UIControlState.Normal);
 
-			temp.TouchUpInside += delegate {
+			button.TouchUpInside += delegate {
 				imagePickerController = new QBImagePickerController();
 				imagePickerController.Delegate = new PickerDelegate(imagePickerController);
 				imagePickerController.AllowsMultipleSelection = true;
